@@ -3,6 +3,11 @@ input.onButtonPressed(Button.A, function () {
     basic.showNumber(Math.round(MoistureReading))
     basic.clearScreen()
 })
+input.onButtonPressed(Button.AB, function () {
+    for (let index = 0; index <= 4; index++) {
+    	
+    }
+})
 input.onButtonPressed(Button.B, function () {
     MoistureReading = Math.map(pins.digitalReadPin(DigitalPin.P1), 0, 1023, 0, 100)
 })
