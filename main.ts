@@ -5,7 +5,10 @@ input.onButtonPressed(Button.A, function () {
 })
 input.onButtonPressed(Button.AB, function () {
     for (let index = 0; index <= 4; index++) {
-    	
+        led.plotBarGraph(
+        0,
+        5
+        )
     }
 })
 input.onButtonPressed(Button.B, function () {
